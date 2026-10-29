@@ -1,6 +1,6 @@
 # Dan’s Pizza — order desk demo
 
-A standalone, local restaurant order dashboard. It does not use Base44, a POS, a payment processor, or a connected phone line. The menu item names and listed base prices were imported from the Dan’s Pizza Co Webster listing on Slice on 2026-10-29; verify current prices, sizes, and options with the restaurant before use. Sample orders are demo data and persist locally in `.data/state.json`.
+A standalone, browser-based restaurant order dashboard. Try the live demo at https://petegarzafit.github.io/dans-pizza-ordering-demo/. It does not use Base44, a POS, a payment processor, or a connected phone line. The menu item names and listed base prices were imported from the Dan’s Pizza Co Webster listing on Slice on 2026-10-29; verify current prices, sizes, and options with the restaurant before use. Sample orders are demo data and persist locally in `.data/state.json`.
 
 ## Run locally
 
@@ -10,7 +10,7 @@ Requires Node.js 20 or newer; no package installation is needed.
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000). The `public/` folder is a standalone static demo; a GitHub Pages workflow is included at `.github/workflows/pages.yml`. After the project is pushed to a GitHub repository with Pages enabled for GitHub Actions, Pages can host the static demo. Its demo orders/menu edits are saved in each visitor’s browser and are not shared with the restaurant. To start fresh, stop the server and remove `.data/state.json`; sample data is recreated on next start.
+Open [http://localhost:3000](http://localhost:3000). The `public/` folder is a standalone static demo; a GitHub Pages workflow is included at `.github/workflows/pages.yml`. The static demo is published on GitHub Pages at https://petegarzafit.github.io/dans-pizza-ordering-demo/. Its demo orders/menu edits are saved in each visitor’s browser and are not shared with the restaurant. To start fresh, stop the server and remove `.data/state.json`; sample data is recreated on next start.
 
 ## Features
 
