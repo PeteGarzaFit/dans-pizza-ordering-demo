@@ -1,0 +1,8 @@
+{
+  "name": "dans-pizza-ordering-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local restaurant order dashboard demo with optional Retell server integration scaffold",
+  "scripts": {"start":"node server.mjs", "check":"node --check server.mjs && node --check public/app.js"},
+  "engines":{"node":">=20"}
+}
