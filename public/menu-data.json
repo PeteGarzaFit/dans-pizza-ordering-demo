@@ -1054,5 +1054,13 @@
     "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
     "price": 2.99,
     "available": true
+  },
+  {
+    "id": "sl-133",
+    "name": "Carryout Special — Large One-Topping",
+    "category": "Carryout Specials",
+    "description": "Owner-confirmed carryout special: large pizza with one topping. Confirm the selected topping and availability with staff.",
+    "price": 12.99,
+    "available": true
   }
 ]
