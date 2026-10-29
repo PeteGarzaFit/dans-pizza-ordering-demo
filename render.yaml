@@ -10,12 +10,8 @@ services:
       - key: NODE_ENV
         value: production
       - key: ORDER_TOOL_SECRET
-        generateValue: true
+        sync: false
       - key: SESSION_SECRET
         generateValue: true
       - key: DASHBOARD_PASSWORD
-        sync: false
-      - key: RETELL_API_KEY
-        sync: false
-      - key: RETELL_AGENT_ID
         sync: false
