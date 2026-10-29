@@ -55,6 +55,10 @@ function verifyRetellWebhook(raw,signature,apiKey){
   return safeEqual(digest.toLowerCase(),expected);
 }
 function totals(items){const subtotalCents=items.reduce((a,i)=>a+Math.round(i.price*100)*i.qty,0);const taxCents=Math.round(subtotalCents*825/10000);return{subtotal:subtotalCents/100,tax:taxCents/100,total:(subtotalCents+taxCents)/100};}
+function containsPaymentData(value){
+  const text=String(value||'');
+  return /(?:\d[ -]?){13,19}/.test(text)||/(?:card\s*(?:number|no\.?|#)|credit\s*card|debit\s*card|cvv|cvc|security\s*code|bank\s*account|routing\s*number)\D{0,24}\d{3,19}/i.test(text);
+}
 function nextOrderId(){const max=state.orders.reduce((n,o)=>Math.max(n,Number(String(o.id).match(/^DP-(\d+)$/)?.[1]||0)),1042);return`DP-${max+1}`;}
 function matchMenuItem(item){const key=String(item.id||item.name||'').trim().toLocaleLowerCase();return state.menu.find(m=>m.available&&(m.id.toLocaleLowerCase()===key||m.name.toLocaleLowerCase()===key));}
 const validStatuses=['New','Preparing','Ready','Completed'];
@@ -95,6 +99,7 @@ const server=http.createServer(async(req,res)=>{
       if(String(process.env.ORDER_TOOL_SECRET||'').length<32)return json(res,503,{error:'Order tool is disabled. Set a 32-character ORDER_TOOL_SECRET on the server to enable it.'});
       if(!safeEqual(req.headers.authorization,`Bearer ${process.env.ORDER_TOOL_SECRET}`))return json(res,401,{error:'Unauthorized'});
       const input=await body(req);const args=input.args||input;const items=(args.items||[]).map(x=>({item:x,qty:Number(x.quantity||x.qty)}));
+      if(containsPaymentData(args.customer_name)||containsPaymentData(args.notes))return json(res,400,{error:'Payment details cannot be included in a demo order. Please remove them and continue without payment information.'});
       const cooked=items.map(({item,qty})=>{const m=matchMenuItem(item);if(!m||!Number.isInteger(qty)||qty<1||qty>50)throw Error('Invalid or unavailable menu item.');return{name:m.name,qty,price:m.price};});
       if(!cooked.length)return json(res,400,{error:'At least one valid menu item is required.'});
       const order={id:nextOrderId(),customer:String(args.customer_name||'Retell caller').slice(0,80),phone:'(Retell call)',source:'Retell (demo)',status:'New',createdAt:Date.now(),items:cooked,notes:String(args.notes||'').slice(0,300)};state.orders.unshift(order);await save();return json(res,201,{success:true,order_id:order.id,...totals(cooked),tax_rate:taxRate});
