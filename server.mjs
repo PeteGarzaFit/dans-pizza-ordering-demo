@@ -104,10 +104,19 @@ const server=http.createServer(async(req,res)=>{
       if(String(process.env.ORDER_TOOL_SECRET||'').length<32)return json(res,503,{error:'Order tool is disabled. Set a 32-character ORDER_TOOL_SECRET on the server to enable it.'});
       if(!safeEqual(req.headers.authorization,`Bearer ${process.env.ORDER_TOOL_SECRET}`))return json(res,401,{error:'Unauthorized'});
       const input=await body(req);const args=input.args||input;const items=(args.items||[]).map(x=>({item:x,qty:Number(x.quantity||x.qty)}));
-      if(containsPaymentData(args.customer_name)||containsPaymentData(args.notes))return json(res,400,{error:'Payment details cannot be included in a demo order. Please remove them and continue without payment information.'});
+      const customerName=String(args.customer_name||'').trim().slice(0,80);
+      const customerPhone=String(args.customer_phone||'').trim().slice(0,32);
+      const fulfillment=String(args.fulfillment||'pickup').toLowerCase()==='delivery'?'delivery':'pickup';
+      const address=String(args.address||'').trim().slice(0,250);
+      const callerNotes=String(args.notes||'').trim().slice(0,250);
+      if(!customerName)return json(res,400,{error:'Caller name is required.'});
+      if(customerPhone.replace(/\D/g,'').length<7)return json(res,400,{error:'A valid callback number is required.'});
+      if(fulfillment==='delivery'&&!address)return json(res,400,{error:'Delivery address is required.'});
+      if(containsPaymentData(customerName)||containsPaymentData(address)||containsPaymentData(callerNotes))return json(res,400,{error:'Payment details cannot be included with an order. Please remove them and continue without payment information.'});
       const cooked=items.map(({item,qty})=>{const m=matchMenuItem(item);if(!m||!Number.isInteger(qty)||qty<1||qty>50)throw Error('Invalid or unavailable menu item.');return{name:m.name,qty,price:m.price};});
       if(!cooked.length)return json(res,400,{error:'At least one valid menu item is required.'});
-      const order={id:nextOrderId(),customer:String(args.customer_name||'Retell caller').slice(0,80),phone:'(Retell call)',source:'Retell (demo)',status:'New',createdAt:Date.now(),items:cooked,notes:String(args.notes||'').slice(0,300)};state.orders.unshift(order);await save();return json(res,201,{success:true,order_id:order.id,...totals(cooked),tax_rate:taxRate});
+      const orderNotes=[fulfillment==='delivery'?'Delivery address: '+address:'Pickup',callerNotes].filter(Boolean).join(' · ').slice(0,300);
+      const order={id:nextOrderId(),customer:customerName,phone:customerPhone,source:'Retell order',status:'New',createdAt:Date.now(),items:cooked,notes:orderNotes,fulfillment,address:fulfillment==='delivery'?address:''};state.orders.unshift(order);await save();return json(res,201,{success:true,order_id:order.id,...totals(cooked),tax_rate:taxRate});
     }
     if(req.method==='POST'&&url.pathname==='/api/retell/webhook'){
       if(!process.env.RETELL_API_KEY)return json(res,503,{error:'Webhook is disabled. Configure a webhook-enabled RETELL_API_KEY on the server.'});
