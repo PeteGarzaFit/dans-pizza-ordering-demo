@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "sl-001",
+    "name": "Cheese Pizza",
+    "category": "Create Your Own Pizza",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-002",
+    "name": "Maui Wowie Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-003",
+    "name": "Chicken Alfredo Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-004",
+    "name": "Pepperoni Amore Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-005",
+    "name": "Spinach Alfredo Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-006",
+    "name": "The Works Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-007",
+    "name": "Shrimp Delight Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-008",
+    "name": "Double Double Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-009",
+    "name": "Greek Hero Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-010",
+    "name": "Cheeseburger Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-011",
+    "name": "Garden Lover Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-012",
+    "name": "Carnivore Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-013",
+    "name": "Four Cheese Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-014",
+    "name": "Veggie Lover Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-015",
+    "name": "Uncle Tony Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-016",
+    "name": "Chicken Garlic Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-017",
+    "name": "Philly Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-018",
+    "name": "Buffalo Chicken Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-019",
+    "name": "Caprina Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-020",
+    "name": "Pesto Chicken Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-021",
+    "name": "Class Of 2000 Pizza",
+    "category": "Pizza Classic",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-022",
+    "name": "The Ultimate Pizza",
+    "category": "Pounder Pizzas",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 16.99,
+    "available": true
+  },
+  {
+    "id": "sl-023",
+    "name": "The Dan O Saur Pizza",
+    "category": "Pounder Pizzas",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 94.99,
+    "available": true
+  },
+  {
+    "id": "sl-024",
+    "name": "The Omnivore Pizza",
+    "category": "Pounder Pizzas",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 16.99,
+    "available": true
+  },
+  {
+    "id": "sl-025",
+    "name": "BLT Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-026",
+    "name": "Italian Meatball Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-027",
+    "name": "Sausage Fest Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-028",
+    "name": "Avalanche Ranch Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-029",
+    "name": "Taste Of Mexico Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-030",
+    "name": "Wise Guy Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-031",
+    "name": "Chicken Bacon Ranch Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-032",
+    "name": "Jamaican Me Creazy Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-033",
+    "name": "BBQ Amore Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-034",
+    "name": "The 6Th Sense Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-035",
+    "name": "Dan's Heart Stopper Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-036",
+    "name": "Chicken Teriyaki Broccoli Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-037",
+    "name": "Veggie Amore Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-038",
+    "name": "The Sinatra Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-039",
+    "name": "All Beef Amore Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-040",
+    "name": "Surf & Turf Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-041",
+    "name": "Healthy Heart Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-042",
+    "name": "Nola Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-043",
+    "name": "Margherita Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-044",
+    "name": "Mattress Mac Attack Pizza",
+    "category": "Pizza Specialties",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 15.99,
+    "available": true
+  },
+  {
+    "id": "sl-045",
+    "name": "Breadsticks",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-046",
+    "name": "Chicken Tenders Basket With Fries",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 11.99,
+    "available": true
+  },
+  {
+    "id": "sl-047",
+    "name": "Cheesy Breadsticks",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-048",
+    "name": "Stuffed Cream Cheese Jalapenos",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-049",
+    "name": "Loaf Of Garlic Bread",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 2.99,
+    "available": true
+  },
+  {
+    "id": "sl-050",
+    "name": "Assorted Chips",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 0.99,
+    "available": true
+  },
+  {
+    "id": "sl-051",
+    "name": "Loaf Of Garlic Bread With Cheese",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 3.99,
+    "available": true
+  },
+  {
+    "id": "sl-052",
+    "name": "Butterflied Shrimp",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-053",
+    "name": "French Fries",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 3.99,
+    "available": true
+  },
+  {
+    "id": "sl-054",
+    "name": "Popcorn Shrimp",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-055",
+    "name": "Cheese Fries",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 4.99,
+    "available": true
+  },
+  {
+    "id": "sl-056",
+    "name": "Fried Calamari",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 8.99,
+    "available": true
+  },
+  {
+    "id": "sl-057",
+    "name": "Fried Pickles",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-058",
+    "name": "Mac & Cheese Wedges",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-059",
+    "name": "Mozzarella Sticks",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-060",
+    "name": "Meatballs A La Carte",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-061",
+    "name": "Mushrooms",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-062",
+    "name": "Sausage A La Carte",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 8.99,
+    "available": true
+  },
+  {
+    "id": "sl-063",
+    "name": "Chicken Tenders",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-064",
+    "name": "Caprese",
+    "category": "Appetizers",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 8.99,
+    "available": true
+  },
+  {
+    "id": "sl-065",
+    "name": "Dinner Salad",
+    "category": "Salads",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 4.99,
+    "available": true
+  },
+  {
+    "id": "sl-066",
+    "name": "Traditional Caesar Salad",
+    "category": "Salads",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 4.99,
+    "available": true
+  },
+  {
+    "id": "sl-067",
+    "name": "Greek Salad",
+    "category": "Salads",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-068",
+    "name": "Chef Salad",
+    "category": "Salads",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-069",
+    "name": "Dan's House Caesar Salad",
+    "category": "Salads",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 4.99,
+    "available": true
+  },
+  {
+    "id": "sl-070",
+    "name": "Spinach Salad",
+    "category": "Salads",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 4.99,
+    "available": true
+  },
+  {
+    "id": "sl-071",
+    "name": "Wings",
+    "category": "Wings",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-072",
+    "name": "Boneless Wings",
+    "category": "Wings",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-073",
+    "name": "Calzone",
+    "category": "Calzones, Stromboli & Rolls",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-074",
+    "name": "Calzone With Sauce",
+    "category": "Calzones, Stromboli & Rolls",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 23.99,
+    "available": true
+  },
+  {
+    "id": "sl-075",
+    "name": "Stromboli",
+    "category": "Calzones, Stromboli & Rolls",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-076",
+    "name": "Stromboli With Sauce",
+    "category": "Calzones, Stromboli & Rolls",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 23.99,
+    "available": true
+  },
+  {
+    "id": "sl-077",
+    "name": "Pizza Roll",
+    "category": "Calzones, Stromboli & Rolls",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-078",
+    "name": "Pizza Roll With Sauce",
+    "category": "Calzones, Stromboli & Rolls",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 23.99,
+    "available": true
+  },
+  {
+    "id": "sl-079",
+    "name": "Pesto Chicken Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-080",
+    "name": "Italian Melt Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-081",
+    "name": "Ham & Cheese Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-082",
+    "name": "Chicken Bacon Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-083",
+    "name": "Veggie & Cheese Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-084",
+    "name": "Buffalo Chicken Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-085",
+    "name": "Philly Cheesesteak Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-086",
+    "name": "Italian Sausage Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-087",
+    "name": "Chicken Cheesesteak Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-088",
+    "name": "Shrimp Poor Boy Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-089",
+    "name": "Tejas Philly Steak",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-090",
+    "name": "Pizza Steak Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-091",
+    "name": "Chicken Parmesan Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-092",
+    "name": "Grilled Chicken Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-093",
+    "name": "BBQ Chicken Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-094",
+    "name": "Steak Pita",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-095",
+    "name": "Steak Sandwich",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-096",
+    "name": "Veggie Pita",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-097",
+    "name": "Meatball Sub",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-098",
+    "name": "Gyro",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-099",
+    "name": "All Beef Pepperoni Sub",
+    "category": "Sandwiches",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 7.99,
+    "available": true
+  },
+  {
+    "id": "sl-100",
+    "name": "Fettucine Alfredo",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-101",
+    "name": "Chicken Parmigiana Pasta",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 10.99,
+    "available": true
+  },
+  {
+    "id": "sl-102",
+    "name": "Chicken Alfredo Pasta",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 11.99,
+    "available": true
+  },
+  {
+    "id": "sl-103",
+    "name": "Chicken Scampi",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 10.99,
+    "available": true
+  },
+  {
+    "id": "sl-104",
+    "name": "Shrimp Alfredo Pasta",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 11.99,
+    "available": true
+  },
+  {
+    "id": "sl-105",
+    "name": "Shrimp Scampi",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 10.99,
+    "available": true
+  },
+  {
+    "id": "sl-106",
+    "name": "Chicken & Shrimp Alfredo Pasta",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.49,
+    "available": true
+  },
+  {
+    "id": "sl-107",
+    "name": "Chicken & Shrimp Scampi",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 12.99,
+    "available": true
+  },
+  {
+    "id": "sl-108",
+    "name": "Spaghetti With Meatballs",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-109",
+    "name": "Ravioli",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-110",
+    "name": "Spaghetti With Meat Sauce",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-111",
+    "name": "Grandmas Homemade Beef Lasagna",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 10.69,
+    "available": true
+  },
+  {
+    "id": "sl-112",
+    "name": "Manicotti",
+    "category": "Pasta",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 9.99,
+    "available": true
+  },
+  {
+    "id": "sl-113",
+    "name": "Kid's Personal Pizza",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-114",
+    "name": "Kid's Fettucine Alfredo",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.49,
+    "available": true
+  },
+  {
+    "id": "sl-115",
+    "name": "Kid's Spaghetti",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-116",
+    "name": "Kid's Ham & Cheese Sandwich",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-117",
+    "name": "Kid's Chicken Tenders",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-118",
+    "name": "Kid's Philly Steak Sandwich",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 6.99,
+    "available": true
+  },
+  {
+    "id": "sl-119",
+    "name": "Kid's Mac & Cheese Wedges",
+    "category": "Kids Menu",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-120",
+    "name": "Pizza Cookie",
+    "category": "Desserts",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-121",
+    "name": "Carrot Cake",
+    "category": "Desserts",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-122",
+    "name": "Cheesecake",
+    "category": "Desserts",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 4.99,
+    "available": true
+  },
+  {
+    "id": "sl-123",
+    "name": "Italian Cream Cake",
+    "category": "Desserts",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-124",
+    "name": "Tiramisu",
+    "category": "Desserts",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-125",
+    "name": "Chocolate Elite Cake",
+    "category": "Desserts",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 5.99,
+    "available": true
+  },
+  {
+    "id": "sl-126",
+    "name": "Soda",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 1.29,
+    "available": true
+  },
+  {
+    "id": "sl-127",
+    "name": "Water",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 1.09,
+    "available": true
+  },
+  {
+    "id": "sl-128",
+    "name": "Ice Tea",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 1.29,
+    "available": true
+  },
+  {
+    "id": "sl-129",
+    "name": "Mexico Cokes",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 2.99,
+    "available": true
+  },
+  {
+    "id": "sl-130",
+    "name": "Lemonade",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 1.29,
+    "available": true
+  },
+  {
+    "id": "sl-131",
+    "name": "Topo Chico",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 2.99,
+    "available": true
+  },
+  {
+    "id": "sl-132",
+    "name": "IBC",
+    "category": "Beverages",
+    "description": "Listed on Slice Life menu; ask staff to confirm details and options.",
+    "price": 2.99,
+    "available": true
+  }
+]
