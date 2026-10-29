@@ -24,7 +24,12 @@ const seed = {
 
 async function loadState(){
   if(!existsSync(dataFile)){await mkdir(dataDir,{recursive:true}); await writeFile(dataFile,JSON.stringify(seed,null,2));}
-  try{return JSON.parse(await readFile(dataFile,'utf8'));}catch{return structuredClone(seed);}
+  try{
+    const saved=JSON.parse(await readFile(dataFile,'utf8'));
+    const existingIds=new Set((saved.menu||[]).map(item=>item.id));
+    saved.menu=[...(saved.menu||[]),...seed.menu.filter(item=>!existingIds.has(item.id))];
+    return saved;
+  }catch{return structuredClone(seed);}
 }
 let state=await loadState();
 const save=()=>writeFile(dataFile,JSON.stringify(state,null,2));
