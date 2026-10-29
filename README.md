@@ -4,7 +4,7 @@ A standalone, browser-based restaurant order dashboard. Try the live demo at htt
 
 ## Run locally
 
-Requires Node.js 20 or newer; no package installation is needed.
+Requires Node.js 22.9 or newer; no package installation is needed.
 
 ```sh
 npm start
@@ -27,7 +27,11 @@ The local demo works without Retell. Retell account, agent, phone number, and us
 
 1. Create a Retell account yourself and review its current plan and charges. This project does not buy credits or a phone number.
 2. Create an inbound agent in Retell. Keep it in test mode while checking menu matching, price confirmation, timeouts, and human handoff. Instruct the agent never to request, collect, or repeat card numbers or security codes.
-3. Copy `.env.example` to `.env`. Store `RETELL_API_KEY`, `RETELL_AGENT_ID`, `RETELL_WEBHOOK_SECRET`, and a long random `ORDER_TOOL_SECRET` there only. Never put credentials in `public/` or browser code. `.env` is ignored by Git.
-4. Custom order tool: `POST /api/retell/order-tool`, protected by `Authorization: Bearer $ORDER_TOOL_SECRET`. It accepts `{ "customer_name": "...", "items": [{"id":"m2","quantity":1}], "notes":"..." }` (or those fields under `args`). It checks the imported menu, creates an order labelled `Retell (test)`, and returns subtotal, 8.25% tax, and total.
-5. Webhook receiver: `POST /api/retell/webhook`. Verify Retell’s current signature header and exact signing procedure against its documentation before configuring it. The scaffold expects `x-retell-signature` to be an HMAC-SHA256 hex digest over the exact JSON body using `RETELL_WEBHOOK_SECRET`; adjust this to match the account’s current Retell signing scheme before connecting it. Do not expose this local endpoint publicly without verified signing, HTTPS, and request controls.
-6. Local server binds to `127.0.0.1`; Retell’s cloud cannot reach localhost. Public HTTPS deployment, agent/tool setup, and phone connection are separate steps. None is performed or claimed here. `/api/retell/call` intentionally returns a not-configured response rather than placing calls.
+3. Copy `.env.example` to `.env`. Set a strong `DASHBOARD_PASSWORD`, a random 32-character `SESSION_SECRET`, and a different random 32-character `ORDER_TOOL_SECRET`. Store `RETELL_API_KEY` and `RETELL_AGENT_ID` there only. The Retell API key must have the webhook verification badge if you enable the webhook. Never put credentials in `public/` or browser code. `.env` is ignored by Git.
+4. Custom order tool: `POST /api/retell/order-tool`, protected by `Authorization: Bearer <ORDER_TOOL_SECRET>`. It accepts `{ "customer_name": "...", "items": [{"name":"Pepperoni Amore Pizza","quantity":1}], "notes":"..." }` (or those fields under `args`). It checks the imported menu, creates an order labelled `Retell (demo)`, and returns subtotal, 8.25% tax, and total.
+5. Webhook receiver: `POST /api/retell/webhook`. It verifies Retell’s `x-retell-signature` using the raw request body, a webhook-enabled `RETELL_API_KEY`, and a five-minute timestamp window. See [Retell’s webhook security guide](https://docs.retellai.com/features/secure-webhook). Do not expose this local endpoint publicly before deploying it over HTTPS and setting server-side secrets.
+6. The server listens on the host and `PORT` supplied by the hosting service (and uses port 3000 locally). Retell’s cloud cannot reach localhost. The dashboard API requires sign-in on a public deployment. `/health` is the deployment health check. `/api/retell/call` intentionally returns a not-configured response rather than placing calls.
+
+## Demo hosting
+
+The `render.yaml` Blueprint deploys the full Node app (dashboard and API together) as a free Render web service. This is suitable for a short demo only: free services sleep after inactivity, and their local filesystem can be reset on restart or redeploy, so saved orders are not durable. Do not use this free setup for real restaurant operations. The standalone GitHub Pages build remains a static simulation and does not receive Retell orders.
